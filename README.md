@@ -5,6 +5,7 @@ These are my attempts at replicating some linux `coreutils` in C.
 ## `coreutils` implemented until now
 
 - `cat`
+- `echo`
 
 ## Usage
 
