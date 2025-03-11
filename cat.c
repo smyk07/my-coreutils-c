@@ -46,7 +46,6 @@ int read_file(char *path, char **buffer) {
 
   int tmp_size = 0;
 
-  // FILE *f = fopen(path, "r");
   FILE *f = fopen(path, "r");
 
   if (f == NULL) {
@@ -64,7 +63,6 @@ int read_file(char *path, char **buffer) {
 
       if (tmp == NULL) {
         perror("realloc failed");
-        free(tmp);
         fclose(f);
         exit(1);
       }
