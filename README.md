@@ -6,6 +6,7 @@ These are my attempts at replicating some linux `coreutils` in C.
 
 - `cat`
 - `echo`
+- `tail`
 
 ## Usage
 
